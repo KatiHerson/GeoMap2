@@ -9,21 +9,23 @@
 /* Begin PBXBuildFile section */
 		CEC2EED2256D4A6500C35705 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEC2EED1256D4A6500C35705 /* AppDelegate.swift */; };
 		CEC2EED4256D4A6500C35705 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEC2EED3256D4A6500C35705 /* SceneDelegate.swift */; };
-		CEC2EED6256D4A6500C35705 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEC2EED5256D4A6500C35705 /* ViewController.swift */; };
+		CEC2EED6256D4A6500C35705 /* LocationVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEC2EED5256D4A6500C35705 /* LocationVC.swift */; };
 		CEC2EED9256D4A6500C35705 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CEC2EED7256D4A6500C35705 /* Main.storyboard */; };
 		CEC2EEDB256D4A6900C35705 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CEC2EEDA256D4A6900C35705 /* Assets.xcassets */; };
 		CEC2EEDE256D4A6900C35705 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CEC2EEDC256D4A6900C35705 /* LaunchScreen.storyboard */; };
+		CEE963EA256D5CF8002F71CC /* MapVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEE963E9256D5CF8002F71CC /* MapVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		CEC2EECE256D4A6500C35705 /* GeoMap2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GeoMap2.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CEC2EED1256D4A6500C35705 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CEC2EED3256D4A6500C35705 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		CEC2EED5256D4A6500C35705 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		CEC2EED5256D4A6500C35705 /* LocationVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationVC.swift; sourceTree = "<group>"; };
 		CEC2EED8256D4A6500C35705 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		CEC2EEDA256D4A6900C35705 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CEC2EEDD256D4A6900C35705 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CEC2EEDF256D4A6900C35705 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CEE963E9256D5CF8002F71CC /* MapVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,15 +58,24 @@
 		CEC2EED0256D4A6500C35705 /* GeoMap2 */ = {
 			isa = PBXGroup;
 			children = (
+				CEC2EEE6256D4EA600C35705 /* Fonts */,
 				CEC2EED1256D4A6500C35705 /* AppDelegate.swift */,
 				CEC2EED3256D4A6500C35705 /* SceneDelegate.swift */,
-				CEC2EED5256D4A6500C35705 /* ViewController.swift */,
+				CEC2EED5256D4A6500C35705 /* LocationVC.swift */,
+				CEE963E9256D5CF8002F71CC /* MapVC.swift */,
 				CEC2EED7256D4A6500C35705 /* Main.storyboard */,
 				CEC2EEDA256D4A6900C35705 /* Assets.xcassets */,
 				CEC2EEDC256D4A6900C35705 /* LaunchScreen.storyboard */,
 				CEC2EEDF256D4A6900C35705 /* Info.plist */,
 			);
 			path = GeoMap2;
+			sourceTree = "<group>";
+		};
+		CEC2EEE6256D4EA600C35705 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Fonts;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,7 +148,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CEC2EED6256D4A6500C35705 /* ViewController.swift in Sources */,
+				CEC2EED6256D4A6500C35705 /* LocationVC.swift in Sources */,
+				CEE963EA256D5CF8002F71CC /* MapVC.swift in Sources */,
 				CEC2EED2256D4A6500C35705 /* AppDelegate.swift in Sources */,
 				CEC2EED4256D4A6500C35705 /* SceneDelegate.swift in Sources */,
 			);
